@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | TechVritti</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+   
+</head>
+<body class="bg-white text-slate-900 selection:bg-blue-100 selection:text-blue-900">
+
+    <div class="blob" style="top: -150px; right: -150px;"></div>
+    <div class="blob" style="bottom: 10%; left: -200px; animation-delay: -7s;"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-4">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='index.html'">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-200">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <span class="text-2xl font-extrabold tracking-tight">TechVritti</span>
+            </div>
+            
+            <div class="hidden lg:flex items-center gap-7">
+                <a href="index.html" class="nav-link text-sm font-semibold hover:text-blue-600 relative transition-all">Home</a>
+                <a href="about.html" class="nav-link text-sm font-semibold hover:text-blue-600 relative transition-all">About</a>
+                <a href="services.html" class="nav-link text-sm font-semibold hover:text-blue-600 relative transition-all">Services</a>
+                <a href="solution.html" class="nav-link text-sm font-semibold hover:text-blue-600 relative transition-all">Solutions</a>
+                <a href="coreld.html" class="nav-link text-sm font-semibold hover:text-blue-600 relative transition-all">L&D</a>
+                <a href="internship.html" class="nav-link text-sm font-semibold hover:text-blue-600 relative transition-all">Internships</a>
+                <a href="impact.html" class="nav-link text-sm font-semibold hover:text-blue-600 relative transition-all">Impact</a>
+                <a href="contact.html" class="ml-4 px-6 py-2.5 bg-blue-600 text-white rounded-full text-sm font-bold hover:bg-blue-700 transition-all shadow-md shadow-blue-100">Contact</a>
+            </div>
+
+            <button class="lg:hidden text-2xl" id="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed inset-0 bg-white z-[60] flex flex-col items-center justify-center gap-6 translate-x-full transition-transform duration-500 lg:hidden">
+        <button class="absolute top-8 right-8 text-3xl" id="menu-close"><i class="fas fa-times"></i></button>
+        <a href="index.html" class="text-2xl font-bold">Home</a>
+        <a href="about.html" class="text-2xl font-bold">About</a>
+        <a href="services.html" class="text-2xl font-bold">Services</a>
+        <a href="solution.html" class="text-2xl font-bold">Solutions</a>
+        <a href="coreld.html" class="text-2xl font-bold">L&D</a>
+        <a href="internship.html" class="text-2xl font-bold">Internships</a>
+        <a href="impact.html" class="text-2xl font-bold">Impact</a>
+        <a href="contact.html" class="px-8 py-3 bg-blue-600 text-white rounded-full font-bold">Contact Us</a>
+    </div>
+ <!-- About Section -->
+    <section id="about" class="section-padding px-6 bg-slate-50/50 pt-32">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <div class="animate-on-scroll">
+                    <h2 class="text-4xl font-extrabold mb-8">Bridging the Talent Gap</h2>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                        Incorporated in March 2023, TechVritti solves the employability gap by enabling companies to scale efficiently through technology-driven HR solutions.
+                    </p>
+                    <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+                        We work closely with colleges, students, enterprises, and government bodies to create a unified ecosystem.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="p-6 bg-blue-600 text-white rounded-[2rem] shadow-xl shadow-blue-100">
+                            <h4 class="font-bold text-xl mb-3">Our Mission</h4>
+                            <p class="text-sm text-blue-100 opacity-90 leading-relaxed">Empower students with job-ready skills and automate recruitment for companies.</p>
+                        </div>
+                        <div class="p-6 bg-slate-900 text-white rounded-[2rem] shadow-xl shadow-slate-200">
+                            <h4 class="font-bold text-xl mb-3">Our Vision</h4>
+                            <p class="text-sm text-slate-300 opacity-90 leading-relaxed">The most trusted full-stack HR Tech platform across Indiaâs growing cities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-4 animate-on-scroll" style="transition-delay: 200ms;">
+                    <div class="flex items-center gap-5 p-6 bg-white rounded-2xl border border-slate-100 shadow-sm hover:border-blue-300 transition-all">
+                        <div class="w-12 h-12 bg-green-50 text-green-600 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-check"></i></div>
+                        <span class="font-bold text-slate-800">Industry-driven learning models</span>
+                    </div>
+                    <div class="flex items-center gap-5 p-6 bg-white rounded-2xl border border-slate-100 shadow-sm hover:border-blue-300 transition-all">
+                        <div class="w-12 h-12 bg-green-50 text-green-600 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-check"></i></div>
+                        <span class="font-bold text-slate-800">AI-first recruitment approach</span>
+                    </div>
+                    <div class="flex items-center gap-5 p-6 bg-white rounded-2xl border border-slate-100 shadow-sm hover:border-blue-300 transition-all">
+                        <div class="w-12 h-12 bg-green-50 text-green-600 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-check"></i></div>
+                        <span class="font-bold text-slate-800">Govt. of Karnataka collaborations</span>
+                    </div>
+                    <div class="flex items-center gap-5 p-6 bg-white rounded-2xl border border-slate-100 shadow-sm hover:border-blue-300 transition-all">
+                        <div class="w-12 h-12 bg-green-50 text-green-600 rounded-full flex items-center justify-center shrink-0"><i class="fas fa-check"></i></div>
+                        <span class="font-bold text-slate-800">Tier-2/3 Talent Ecosystem Focus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-20 px-6 text-white text-center">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex items-center justify-center gap-3 mb-8">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center"><i class="fas fa-microchip"></i></div>
+                <span class="text-2xl font-extrabold tracking-tight">TechVritti</span>
+            </div>
+            <p class="text-slate-400 mb-10 max-w-md mx-auto">Empowering talent through Tier-2/3 ecosystems with AI and industry-aligned skill programs.</p>
+            <div class="flex justify-center gap-6 mb-16">
+                <a href="#" class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="border-t border-white/5 pt-10 text-slate-500 text-sm">
+                &copy; 2026 TechVritti Platform. Built for the future of work.
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
